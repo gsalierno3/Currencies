@@ -70,22 +70,22 @@
         </EditText>
 
     </LinearLayout>
-    < Button
+    <Button
          android:id ="@+id/btn_calc"
-         android:layout_width ="match_parent_parent"
+         android:layout_width ="match_parent"
          android:layout_height =" 0dp"
          android:layout_marginLeft ="10dp"
          android:layout_marginRight ="10dp"
          android:layout_weight ="10"
          android:text ="Calculate"
          android:textColor ="#AAA"/>
-    < LinearLayout
+    <LinearLayout
         android:layout_width ="match_parent"
         android:layout_height ="0dp"
         android:layout_weight ="20"
         android:orientation ="vertical">
 
-        < TextView
+        <TextView
             android:layout_width ="match_parent"
             android:layout_height ="0dp"
             android:layout_marginLeft ="10dp"
@@ -95,7 +95,7 @@
             android:text="Home Currency"
             android:textColor="#ff22e9ff"/>
 
-        < Spinner
+        <Spinner
             android:id ="@+id/spn_hom"
             android:layout_width ="match_parent"
             android:layout_height ="0dp"
@@ -104,7 +104,7 @@
             android:layout_weight ="55"
             android:gravity ="top"/>
 
-        < TextView
+        <TextView
             android:layout_width ="match_parent"
             android:layout_height ="0dp"
             android:layout_marginLeft ="10dp"
@@ -135,6 +135,6 @@
             android:gravity ="center_vertical"
             android:textSize ="30sp"
             android:typeface ="normal"/>
-    </ LinearLayout >
+    </LinearLayout >
 
 </LinearLayout>
